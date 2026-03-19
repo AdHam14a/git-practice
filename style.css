@@ -1,13 +1,11 @@
-.parent{
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20vw;
-}
-
-.child{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-radius: 10px;
+    height: 100vh;
 }

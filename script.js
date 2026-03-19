@@ -1,18 +1,13 @@
-let persons = [
-  {
-    name: "John",
-    age: 30,
-    city: "New York",
-  },
-  {
-    name: "Mohamed",
-    age: 20,
-    city: "LA",
-  },
-];
+const first = () => {
+  second();
+  console.log("first");
+};
+const second = () => {
+  third();
+  console.log("second");
+};
+const third = () => {
+  console.log("third");
+};
 
-console.log(persons);
-
-filtered = persons.filter((p) => p.age > 25);
-
-console.log(filtered);
+first();
